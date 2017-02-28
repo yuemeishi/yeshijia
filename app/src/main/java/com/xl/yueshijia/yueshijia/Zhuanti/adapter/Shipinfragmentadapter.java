@@ -28,7 +28,7 @@ public class Shipinfragmentadapter extends RecyclerView.Adapter<Shipinfragmentad
         this.context = context;
         layoutInflater = LayoutInflater.from(context);
     }
-
+//
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = layoutInflater.inflate(R.layout.zhuanti_shipin, parent, false);
